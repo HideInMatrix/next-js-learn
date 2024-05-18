@@ -1,3 +1,5 @@
-export default function () {
-  return <p>Customers Page</p>;
-}
+const CustomersPage = () => {
+  return <div>Customers Page</div>;
+};
+CustomersPage.displayName = 'CustomersPage'; // Adding display name
+export default CustomersPage;

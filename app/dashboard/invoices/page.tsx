@@ -1,3 +1,5 @@
-export default function () {
-  return <p>Invoices Page</p>;
-}
+const InvoicesPage = () => {
+  return <div>Invoices Page</div>;
+};
+InvoicesPage.displayName = 'InvoicesPage'; // Adding display name
+export default InvoicesPage;
